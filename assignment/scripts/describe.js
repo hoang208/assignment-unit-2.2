@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a varaible called name and set it to 'Dane' as a string.
+// Then we create a conditional statement where if the variable name is equal to the string 'Mary',
+// then the console displays the string 'Hi, Mary!'
+// Otherwise, the console displays the string 'How do you do?'
+// In this case, console should display 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret and a variable called code that is set to 123 as a number.
+// Then we define the variable secret as a conditional revolving around the variable called code.
+// If code is set to the number 123, then the variable called secret will be set to the string 'super'. At the same time, the variable code will be updated to be set to the number that code is set to mutiplied by two.
+// If code is set to a number that is greater than 250, ten the variable secret will be set to the string 'duper'
+// We then console.log 'secret' to see what string is set based on the conditional. In this case, the console should display 'super' and te variable code should change to the number 146.
 
 //CODE
 /*
@@ -70,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the variable called isStudent to be a boolean with the value of true. We set the variable called age that is set to 34 as a number. We set the variable called zip that is set to 55407 as a number.
+// Then we create a conditional statement that first checks if the value of isStudent is true AND if the value of zip is greater than 80000. If both conditions are satisfied, then the the console displays 'You're a student on the West Coast!`
+// If both conditions are no satisfied, then the next conditional is checked in which isStudent is false or age is less than 30. If one of the two conditions is satisfied, then the console displays 'What are your hobbies?'
+// If one of the two conditions are not satisfied, then the next conditional is checked in which isStudent is true, then the console displays 'Welcome to Prime'
+// If none of the above conditions were met, then the console displays 'How about the weather'
+// In this case, the console should display 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,10 +134,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX colorOne and colorTwo values are switched so the code should be
+// let colorOne = 'blue'; let colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX colorOne and colorTwo should both be set to 'purple' if the condition is true but only colorOne is set to 'purple', line 144 should be c
+// colorOne = colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +155,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX both conditions should be fufilled to display the message, but the code is only set to if one of the conditions is met. the code should be
+// if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +170,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX the console.log 'enter' should display if the age is greater than or equal to minAge, yet in this code, it displays 'no entry'. The code should be
+//if (minAge > age)
 if(minAge <= age) {
   console.log('no entry');
 } else {
